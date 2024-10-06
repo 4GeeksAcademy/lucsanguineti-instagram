@@ -1,0 +1,43 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+   /* border:1px dashed red; */
+    /* min-height:10px; */
+}
+
+body {
+    background-color:#D3D3D3;
+}
+
+header {
+    background-color:white;
+    text-align: center;
+    margin:0;
+    padding:20px;
+}
+
+h2 {
+    font-size:14px;
+    padding: 10px;
+}
+
+p {
+    padding: 15px;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.box {
+    margin:50px 500px 0 435px;
+    width:500px;
+    height:auto;
+    background-color:white;
+}
+
+.box img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
